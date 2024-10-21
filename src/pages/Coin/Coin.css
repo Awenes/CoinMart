@@ -47,14 +47,14 @@
 
 @media (max-width: 768px) {
     .coinChart {
-        max-width: 400px;
+        max-width: 380px;
     }
 
     .info {
-        max-width: 400px;
+        max-width: 380px;
     }
 
     .info ul {
-        max-width: 400px;
+        max-width: 380px;
     }
 }
