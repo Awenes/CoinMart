@@ -1,0 +1,60 @@
+.coinName {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin: 100px auto;
+    margin-bottom: 50px;
+}
+
+.coinName img {
+    max-width: 100px;
+    height: auto;
+}
+
+.coinName p b {
+    font-weight: 500;
+    font-size: 46px;
+}
+
+.coinChart {
+    max-width: 600px;
+    height: 250px;
+    margin: auto;
+}
+
+.info {
+    width: 600px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: purple;
+}
+
+.info ul {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    list-style: none;
+    border-bottom: 1px solid white;
+}
+
+.info ul li {
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .coinChart {
+        max-width: 400px;
+    }
+
+    .info {
+        max-width: 400px;
+    }
+
+    .info ul {
+        max-width: 400px;
+    }
+}

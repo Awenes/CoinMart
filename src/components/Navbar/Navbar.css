@@ -1,0 +1,33 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    border-bottom: 2px solid black;
+    padding: 20px;
+}
+
+.mart {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar select {
+    max-width: 60px;
+    padding: 5px;
+    border-radius: 7px;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.navbar option {
+    background-color: magenta;
+    color: white;
+    cursor: pointer;
+}
