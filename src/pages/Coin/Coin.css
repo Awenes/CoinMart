@@ -7,6 +7,28 @@
     margin-bottom: 50px;
 }
 
+.spinner {
+    display: grid;
+    place-self: center;
+    min-height: 80vh;
+}
+
+.spin {
+    width: 65px;
+    height: 65px;
+    place-self: center;
+    border: 5px solid darkmagenta;
+    border-top-color: white;
+    border-radius: 50%;
+    animation: rotate 1s infinite;
+}
+
+@keyframes rotate {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
 .coinName img {
     max-width: 100px;
     height: auto;

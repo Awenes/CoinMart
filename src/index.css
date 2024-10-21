@@ -1,15 +1,15 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-a{
+a {
   text-decoration: none;
   color: inherit;
 }
 
-.app{
+.app {
   min-height: 100vh;
   color: white;
   background-color: #44195e;
