@@ -96,7 +96,7 @@
 
 @media (max-width: 768px) {
     .layout {
-        grid-template-columns: 0.5fr 3fr 1fr 1fr;
+        grid-template-columns: 0.5fr 3fr 1.5fr 1fr;
     }
     .cap {
         display: none;
