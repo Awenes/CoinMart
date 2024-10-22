@@ -70,7 +70,7 @@ const Coin = () => {
     </div>
   }
 
-  if (!coinData && !historicalData) { // Display error message if loading data fails
+  if (!coinData && !historicalData) { 
     return <div className="err">
         Error fetching coin data
       </div>;
