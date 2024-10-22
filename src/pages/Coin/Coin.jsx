@@ -65,7 +65,7 @@ const Coin = () => {
   }, [coinId, currency]); // Re-fetch data when coinId or currency changes
 
   if (isLoading) {
-    return <div className="spinner"> // Displays loading animation when page is loading
+    return <div className="spinner">
       <div className="spin"></div>
     </div>
   }
